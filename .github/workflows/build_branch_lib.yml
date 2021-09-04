@@ -85,7 +85,7 @@ jobs:
             -Dgithub.repository="${GITHUB_REPOSITORY}" 
         shell: bash
 
-      - name: Build Test and Package
+      - name: Deploy to GitHub Packages
         id: maven_deploy_snapshot
         if: matrix.os == 'ubuntu-latest'
         env:

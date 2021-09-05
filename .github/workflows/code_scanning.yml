@@ -1,7 +1,6 @@
 name: Code scanning
  
 on:
-  push:
   pull_request:
 
 jobs:
